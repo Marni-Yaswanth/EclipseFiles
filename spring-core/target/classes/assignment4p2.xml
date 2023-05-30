@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="dept" class="com.capgemini.spring.assignment4p2.Dept">
+<property name="Dname" value="Java full stack"/>
+<property name="Location" value="mumbai"/>
+</bean>
+
+<bean id="emp" class="com.capgemini.spring.assignment4p2.Emp" autowire="byType">
+<property name="Ename" value="yaswanth"/>
+
+</bean>
+
+
+</beans>

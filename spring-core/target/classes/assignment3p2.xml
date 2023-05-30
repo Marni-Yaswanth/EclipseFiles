@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="map" class="com.capgemini.spring.assignment3part2.FilmDirectors">
+<property name="directorMap">
+
+<map>
+
+<entry key="baahubali" value="rajamouli"/>
+<entry key="pushpa" value="sukumar"/>
+<entry key="karthikeya2" value="r chandooo"/>
+
+</map>
+</property>
+</bean>
+
+</beans>

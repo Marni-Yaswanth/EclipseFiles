@@ -1,0 +1,40 @@
+package com.example.ProductPage.DAO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+
+import com.example.ProductPage.exception.NoProductFoundException;
+import com.example.ProductPage.model.Product;
+import com.example.ProductPage.repository.ProductsRepository;
+import com.example.ProductPage.service.ProductService;
+
+@Component
+public class ProductDAO implements ProductService{
+
+	@Autowired
+	private ProductsRepository productsRepository;
+	
+	@Override
+	public ResponseEntity<Product> getProductDetails(String productName) throws NoProductFoundException {
+		List<Product> productsList = new ArrayList<>();
+		productsList= productsRepository.findByProductName(productName);
+		
+		if(productsList.size()==0) {
+			throw new NoProductFoundException("No product found");
+		}
+			return new ResponseEntity<Product>(productsList.get(0),HttpStatus.FOUND);	
+	}
+
+	@Override
+	public void addProduct(Product product) {
+		productsRepository.save(product);
+	}
+	
+	
+
+}

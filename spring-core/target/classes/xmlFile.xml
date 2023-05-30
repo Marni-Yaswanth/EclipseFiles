@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+<bean id = "student" class = "org.capgemini.spring.Interfaces.Student">
+<property name= "name" value = "yaswanth"/>
+<property name= "rollNo" value = "34"/>
+<property name= "phoneNo" value = "7998768643"/>
+</bean>
+<bean id = "parent" class = "org.capgemini.spring.Interfaces.Parent" >
+<property name= "name" value = "yaswanth"/>
+<property name= "phNo" value = "7675467893"/>
+</bean>
+
+
+
+
+
+</beans>

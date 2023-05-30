@@ -1,0 +1,34 @@
+<!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd"> -->
+<beans xmlns = "http://www.springframework.org/schema/beans"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context = "http://www.springframework.org/schema/context"
+xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <!-- bean definitions here -->
+    
+<!-- <bean id="patientBean"  class="com.capgemini.spring.practice.Patient">
+<property name="name" value="yaswanth"/>
+<property name="regNo" value="234"/>
+<property name="hospital" ref="hospitalBean"/>
+</bean> -->
+<!-- <bean id="hospitalBean" class="com.capgemini.spring.practice.Hospital" scope="prototype">
+<property name="hosName" value="hello"/>
+<property name="address" value=""/>
+
+</bean> -->
+
+<bean id="patient"  class="com.capgemini.spring.practice.Patient">
+<property name="name" value = "yaswanth"/>
+<property name="regNo" value="23"/>
+</bean>
+<bean id="hospital"  class="com.capgemini.spring.practice.Hospital">
+<property name="hosName" value="l"/>
+
+</bean>
+ 
+<context:component-scan base-package="com.capgemini.spring.practice"/>
+<context:annotation-config/>
+</beans>
+

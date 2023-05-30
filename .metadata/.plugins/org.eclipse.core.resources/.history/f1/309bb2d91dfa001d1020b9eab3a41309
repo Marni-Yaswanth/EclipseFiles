@@ -1,0 +1,25 @@
+package amit;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Interview {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int arr[] = new int[5];
+		for (int i=0;i<arr.length;i++)
+		{
+			System.out.println("Enter element");
+			arr[i] = scanner.nextInt();
+		}
+		Arrays.sort(arr);
+		for (int i=0;i<arr.length;i++)
+		{
+			System.out.println(arr[i]);
+			//arr[i] = scanner.nextInt();
+		}
+	}
+
+}

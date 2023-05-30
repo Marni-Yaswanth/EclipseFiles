@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;secondApplication&apos;" deleteContents="true" description="Delete resource &apos;secondApplication&apos;" element1="/secondApplication" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1680008641886"/>&#x0A;<refactoring comment="Rename resource &apos;Amit_BankAssignment&apos; to &apos;Amit_LogicalAssignments&apos;" description="Rename resource &apos;Amit_BankAssignment&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Amit_BankAssignment" name="Amit_LogicalAssignments" stamp="1680172434006" updateReferences="true"/>
+</session>

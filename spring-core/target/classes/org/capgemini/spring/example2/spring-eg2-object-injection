@@ -1,0 +1,4 @@
+this is an example of object injection
+referencing one object to other object in xml file
+like we r having Ex1 class and Point class ...in Point class we r having 2 variables x and y we r setting values of them in xml file and referencing that file to the Ex1 file so that in Ex1 file we r having 3 point a,b,c they can have each x and y values.
+we can direclty call the method in xml file in drawing class using application context.

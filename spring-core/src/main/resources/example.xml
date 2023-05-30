@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="student4" class="com.capgemini.spring.example4.Student">
+<property name= "Name" value="yaswanth"/>
+<property name= "phNo" value = "7997919546"/>
+<property name= "address" value="vedurumudi"/>
+<property name= "marks1" ref="marksMap"/>
+
+</bean>
+<bean id= "marksMap" class="com.capgemini.spring.example4.Marks">
+<property name="marks">
+<map>
+<entry key="telugu" value="45.6"/>
+<entry key="hindi" value="35.6"/>
+<entry key="english" value="46.6"/>
+<entry key="maths" value="37.6"/>
+<entry key="science" value="42.6"/>
+</map>
+</property>
+
+</bean>
+
+
+
+</beans>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="location" class="com.capgemini.spring.assigment3.Location">
+<property name="Locationcode" value="BGL"/>
+<property name="locationname" value="Bangalore"/>
+<property name="batch">
+<list>
+<ref bean= "batch1"/>
+<ref bean= "batch2"/>
+</list>
+</property>
+
+</bean>
+<bean id="batch1" class="com.capgemini.spring.assigment3.Batch">
+<property name="id" value="101"/>
+<property name="domain" value="JFS"/>
+<property name="code" value="001"/>
+</bean>
+
+<bean id="batch2" class="com.capgemini.spring.assigment3.Batch">
+<property name="id" value="102"/>
+<property name="domain" value=".NET"/>
+<property name="code" value="002"/>
+</bean>
+</beans>

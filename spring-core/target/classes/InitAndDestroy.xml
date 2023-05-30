@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="example" class ="com.capgemini.spring.lifecycle.InitAndDestroy" 
+	init-method="init" destroy-method="destroy1">
+	<property name="name" value="yaswanth"/>
+	<property name="rollNo" value="3"/>
+
+
+
+</bean>
+<bean id="student" class ="com.capgemini.spring.lifecycle.Student">
+<property name="x" ref="example"/>
+</bean>
+
+
+
+
+</beans>

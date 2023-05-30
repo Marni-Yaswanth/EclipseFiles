@@ -1,0 +1,49 @@
+package com.springbootdemo.demo.service;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springbootdemo.demo.repository.StudentRepo;
+import com.springbootdemo.demo.student.Student;
+
+@Service
+public class StudentService {
+
+	@Autowired
+	StudentRepo repo;
+
+	List<Student> list = new ArrayList<>();
+	
+	public void addStudents(Student student) {
+		// TODO Auto-generated method stub
+			list = (List<Student>) repo.save(student);
+			repo.save(student);
+	}
+	
+	public boolean deleteStudent(Integer id)
+	{
+		
+		
+			
+			repo.deleteById(id);
+			return true;
+		
+		
+	}
+	public void update(Student student, Integer id)
+	{
+		for(Student student1 : list)
+		{
+			if(student1.getId()==id) {
+				repo.deleteById(id);
+				repo.save(student1);
+			}
+		}
+		
+	}
+}

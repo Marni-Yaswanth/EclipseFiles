@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\MYASWANT\eclipse-workspace\practices\src\abstraction\MainClass.java"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\First"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\FifthApplication\src\main\java\com\capgemini\FifthApplication\StudentController.java"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\FourthApplication"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\Amit_LogicalAssignments"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\FourthApplication\src\main\java\com\fourthapplication\StudentController.java"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\first-web-application\src\main\java\com\in28minutes\todo\TodoController.java"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\SecondApplication"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\Collections"/>
+			<item value="C:\Users\MYASWANT\eclipse-workspace\first-web-application"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.capgemini.jfs.casestudy"/>
+			<item value="com.springboot"/>
+			<item value="com.capgemini.restsecond"/>
+			<item value="com.capgemini.springminiproject"/>
+			<item value="com.capgemini.FifthApplication"/>
+			<item value="com.capgemini.resttutorials"/>
+			<item value="com.capgemini.springmvc.FourthApplication"/>
+			<item value="com.capgemini.springmvc.ThirdApplication"/>
+			<item value="com.capgemini.springmvc.secondApplication"/>
+			<item value="com.capgemini"/>
+		</list>
+		<list key="name">
+			<item value="case-study"/>
+			<item value="First"/>
+			<item value="SecondApplication"/>
+		</list>
+		<list key="artifactId">
+			<item value="case-study"/>
+			<item value="SpringBoot"/>
+			<item value="secondrest"/>
+			<item value="miniproject"/>
+			<item value="FifthApplication"/>
+			<item value="First"/>
+			<item value="FourthApplication"/>
+			<item value="ThirdApplication"/>
+			<item value="SecondApplication"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\MYASWANT\Downloads\page\ProductPage"/>
+			<item value="C:\Users\MYASWANT\Downloads\demo"/>
+			<item value="C:\Users\MYASWANT\Desktop\namingserver"/>
+			<item value="C:\Users\MYASWANT\Downloads\movieservice3"/>
+			<item value="C:\Users\MYASWANT\Downloads\movieservice3\movieservice3"/>
+			<item value="C:\Users\MYASWANT\Downloads\mircoservice3\mircoservice3"/>
+			<item value="C:\Users\MYASWANT\Downloads\case-study\case-study"/>
+			<item value="C:\Users\MYASWANT\Downloads\restful-web-services\restful-web-services"/>
+			<item value="C:\Users\MYASWANT\Downloads\booot\Spring_Boot"/>
+			<item value="C:\Users\MYASWANT\Downloads\course-api-data\course-api-data"/>
+			<item value="C:\Users\MYASWANT\Downloads\course-api-data"/>
+			<item value="C:\Users\MYASWANT\Downloads\BOot\Spring_Boot"/>
+			<item value="C:\Users\MYASWANT\Downloads\course-api-data (1)\course-api-data"/>
+			<item value="C:\Users\MYASWANT\Downloads\course-api\course-api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

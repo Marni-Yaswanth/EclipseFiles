@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean id = "address" class="org.capgemini.DegreedAssignment1.Address">
+<property name = "street" value ="merla street"/>
+<property name = "city" value ="vedurumudi"/>
+<property name = "zip" value ="53330"/>
+<property name = "country" value ="merla street"/>
+</bean>
+<bean id="customer" class="org.capgemini.DegreedAssignment1.Customer">
+<property name="customerId" value="345" />
+<property name="customerName" value="yaswanth" />
+<property name="customerContact" value="7997919564" />
+<property name ="add" ref="address" />
+
+</bean>
+</beans>
+        
+      

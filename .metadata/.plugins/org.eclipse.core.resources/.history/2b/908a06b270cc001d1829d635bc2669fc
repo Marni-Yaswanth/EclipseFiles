@@ -1,0 +1,37 @@
+package com.capgemini.spring.assigment3;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Location {
+
+	private String Locationcode;
+	private String locationname;
+	private List<Batch> batch;
+	
+	
+	public String getLocationcode() {
+		return Locationcode;
+	}
+	public void setLocationcode(String locationcode) {
+		Locationcode = locationcode;
+	}
+	public String getLocationname() {
+		return locationname;
+	}
+	public void setLocationname(String locationname) {
+		this.locationname = locationname;
+	}
+	
+	
+	
+	public void displayinfo()
+	{
+		System.out.println("Location is "+getLocationname());
+		System.out.println("Batches in that Location are");
+		for (Batch string : batch)
+		{
+			System.out.println(Locationcode+string);
+		}
+	}
+}

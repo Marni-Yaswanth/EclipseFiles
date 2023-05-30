@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="welcome" class="com.capgemini.spring.assignment1.Welcome">
+<property name="message" value="Learning Spring is interesting"></property>
+</bean>
+
+
+
+</beans>
